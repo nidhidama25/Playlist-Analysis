@@ -1,29 +1,60 @@
 {
   "requestsFinished": 1,
   "requestsFailed": 0,
-  "requestsRetries": 0,
+  "requestsRetries": 1,
   "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 6,
-  "requestMinDurationMillis": 9654,
-  "requestMaxDurationMillis": 9654,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": 24673,
+  "requestMaxDurationMillis": 24673,
   "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 9654,
-  "crawlerStartedAt": "2024-09-22T09:55:47.114Z",
-  "crawlerFinishedAt": "2024-09-22T09:55:56.898Z",
-  "statsPersistedAt": "2024-09-22T09:55:56.898Z",
-  "crawlerRuntimeMillis": 9961,
-  "crawlerLastStartTimestamp": 1726998946937,
+  "requestTotalFinishedDurationMillis": 24673,
+  "crawlerStartedAt": "2024-10-11T12:17:17.361Z",
+  "crawlerFinishedAt": "2024-10-11T12:21:20.476Z",
+  "statsPersistedAt": "2024-10-11T12:21:20.476Z",
+  "crawlerRuntimeMillis": 247107,
+  "crawlerLastStartTimestamp": 1728649033369,
   "requestRetryHistogram": [
+    null,
+    null,
+    null,
     1
   ],
   "statsId": 0,
   "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 9654,
-  "requestTotalDurationMillis": 9654,
+  "requestAvgFinishedDurationMillis": 24673,
+  "requestTotalDurationMillis": 24673,
   "requestsTotal": 1,
   "requestsWithStatusCode": {
-    "200": 1
+    "200": 2
   },
   "errors": {},
-  "retryErrors": {}
+  "retryErrors": {
+    "C:\\Users\\hp\\Desktop\\Playlist Analysis\\node_modules\\@crawlee\\browser-pool\\browser-pool.js:399:19": {
+      "missing error code": {
+        "Error": {
+          "browserController.newPage() failed: 4z53xZasUgNCLw3anpNRP": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "C:\\Users\\hp\\Desktop\\Playlist Analysis\\node_modules\\@crawlee\\core\\crawlers\\crawler_utils.js:13:11": {
+      "missing error code": {
+        "Error": {
+          "Navigation timed out after 60 seconds.": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "rsc": {
+      "missing error code": {
+        "TimeoutError": {
+          "page.waitForSelector: Timeout 30000ms exceeded.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  }
 }
